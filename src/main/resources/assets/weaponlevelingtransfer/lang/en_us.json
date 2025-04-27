@@ -1,0 +1,3 @@
+{
+  "item.levelorprogress.require": "Both must have either least Level or Progress > 0 to start transferring"
+}

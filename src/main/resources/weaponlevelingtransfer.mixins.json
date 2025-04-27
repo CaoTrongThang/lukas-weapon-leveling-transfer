@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.trongthang.weaponlevelingtransfer.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"AnvilTransferMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

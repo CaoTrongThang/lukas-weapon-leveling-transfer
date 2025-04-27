@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "weaponlevelingtransfer",
+	"version": "${version}",
+	"name": "Weapon Leveling Transfer",
+	"description": "Helps transfer item's level in Lukas's Weapon Leveling mod",
+	"authors": [
+		"TrongThang"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/weaponlevelingtransfer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.trongthang.weaponlevelingtransfer.WeaponLevelingTransfer"
+		],
+		"client": [
+			"com.trongthang.weaponlevelingtransfer.WeaponLevelingTransferClient"
+		],
+		"fabric-datagen": [
+			"com.trongthang.weaponlevelingtransfer.WeaponLevelingTransferDataGenerator"
+		]
+	},
+	"mixins": [
+		"weaponlevelingtransfer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
